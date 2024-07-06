@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <style>
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+            
+        }
+
+        .change:hover {
+            width: 400px;
+            height: 400px;
+            background-color: red
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box change">3rd Box Click Here</div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
